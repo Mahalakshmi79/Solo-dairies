@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Custom font */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: grey; /* Grey background */
+    color: white;           /* White text color for contrast */
+    text-align: center;     /* Center text */
+    padding: 10px;          /* Add some padding */
+    font-size: 24px;        /* Set font size */
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.media-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+video, img {
+    max-width: 100%;
+    height: auto;
+}
